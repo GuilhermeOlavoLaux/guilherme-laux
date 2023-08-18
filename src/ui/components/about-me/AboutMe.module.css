@@ -1,0 +1,40 @@
+.about_me {
+  background-color: rgb(231 201 157);
+  height: 100vh;
+  font-size: 25px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.wave1 {
+  animation: moveWave1 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveWave1 {
+  from {
+    transform: translate(-1800px);
+  }
+}
+
+.wave2 {
+  animation: moveWave2 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveWave2 {
+  from {
+    transform: translate(-1600px);
+  }
+}
+.wave3 {
+  animation: moveWave3 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveWave3 {
+  from {
+    transform: translate(-1400px);
+  }
+}

@@ -1,14 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "target": "ES6",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "baseUrl": ".",
-    "paths":{
-      "@components/*":["./src/ui/components/*"]
+    "paths": {
+      "@components/*": ["./src/ui/components/*"]
     },
     "allowJs": true,
     "skipLibCheck": true,
@@ -24,7 +21,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src", "styles.d.ts"]
 }

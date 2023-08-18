@@ -1,12 +1,10 @@
-import React from "react";
-import logo from "./logo.svg";
+import GuilhermeLaux from "./ui/screens/GuilhermeLaux";
 import "./App.css";
-import Header from "@components/header/Header";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <GuilhermeLaux />
     </div>
   );
 }
