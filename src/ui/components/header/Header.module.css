@@ -1,0 +1,8 @@
+.header {
+  position: fixed;
+  top: 0px;
+  background-color: rgb(37 100 125);
+  width: 100vw;
+  z-index: 3;
+  height: 80px;
+}
