@@ -5,6 +5,8 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "baseUrl": ".",
     "paths": {
+      "@assets/*": ["./src/assets/images/*"],
+      "@hooks/*": ["./src/hooks/*"],
       "@components/*": ["./src/ui/components/*"]
     },
     "allowJs": true,

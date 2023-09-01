@@ -1,14 +1,13 @@
 import styles from "./AboutMe.module.css";
-import GitHubLogo from "../../../assets/images/github-logo.svg";
-import LinkedinLogo from "../../../assets/images/linkedin-logo.svg";
-import InstagramLogo from "../../../assets/images/instagram-logo.svg";
+import GitHubLogo from "@assets/github-logo.svg";
+import LinkedinLogo from "@assets/linkedin-logo.svg";
+import InstagramLogo from "@assets/instagram-logo.svg";
 
 import Typical from "react-typical";
 
 export default function AboutMe() {
   return (
     <section className={styles.about_me}>
-      <header className={styles.about_me__header}></header>
       <div className={styles.about_me__content}>
         <h1 className={styles.about_me__title}>
           Olá, me chamo Guilherme Olavo Laux,
@@ -47,11 +46,11 @@ export default function AboutMe() {
         <defs>
           <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
             <stop
-              stop-color="rgba(38.373, 112.215, 193.847, 1)"
+              stopColor="rgba(38.373, 112.215, 193.847, 1)"
               offset="0%"
             ></stop>
             <stop
-              stop-color="rgba(95.976, 122.242, 173.356, 1)"
+              stopColor="rgba(95.976, 122.242, 173.356, 1)"
               offset="100%"
             ></stop>
           </linearGradient>

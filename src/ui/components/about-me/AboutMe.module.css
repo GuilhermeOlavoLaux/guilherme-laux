@@ -1,21 +1,12 @@
-.about_me__header {
-  height: 100px;
-  background-color: rgb(30, 74, 98);
-  width: 100%;
-  position: fixed;
-  z-index: 3;
-}
 .about_me {
-  background-color: rgb(233 222 205);
+  background-color: var(--sand-yellow);
   height: 100vh;
-
   font-size: 25px;
   position: relative;
 }
 
 .about_me__content {
   height: calc(100vh + 80px);
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +16,6 @@
 }
 
 .about_me__title {
-  color: #161751;
   text-align: center;
   padding-bottom: 30px;
 }

@@ -1,0 +1,17 @@
+.skill_card {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: solid black 2px;
+  background-color: var(--sand-yellow);
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+.skill_card__image {
+  height: 250px;
+}
