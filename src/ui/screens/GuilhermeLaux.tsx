@@ -5,7 +5,10 @@ export default function GuilhermeLaux() {
   return (
     <div className={styles.guilherme__laux}>
       <AboutMe />
-      <h1>kkkkkkkkkkkkkk</h1>
+
+      <div className={styles.teste}>
+        <h1>kkkkkkkkkkkkkk</h1>
+      </div>
     </div>
   );
 }

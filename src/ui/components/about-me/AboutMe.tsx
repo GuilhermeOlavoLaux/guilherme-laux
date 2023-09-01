@@ -8,6 +8,7 @@ import Typical from "react-typical";
 export default function AboutMe() {
   return (
     <section className={styles.about_me}>
+      <header className={styles.about_me__header}></header>
       <div className={styles.about_me__content}>
         <h1 className={styles.about_me__title}>
           Olá, me chamo Guilherme Olavo Laux,

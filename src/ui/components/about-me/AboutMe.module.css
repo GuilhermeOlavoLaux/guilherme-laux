@@ -1,3 +1,10 @@
+.about_me__header {
+  height: 100px;
+  background-color: rgb(30, 74, 98);
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+}
 .about_me {
   background-color: rgb(233 222 205);
   height: 100vh;
