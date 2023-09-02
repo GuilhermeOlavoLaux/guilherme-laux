@@ -8,18 +8,19 @@ export default function Skills() {
   return (
     <section className={`container ${styles.skills}`}>
       <h1 className={styles.skills__title}>Habilidades</h1>
-
-      {skillCards.map((skillCard: SkillCardPropsTypes) => {
-        return (
-          <SkillCard
-            id={skillCard.id}
-            image={skillCard.image}
-            imageAlt={skillCard.imageAlt}
-            title={skillCard.title}
-            description={skillCard.description}
-          />
-        );
-      })}
+      <div className={styles.skills__cards}>
+        {skillCards.map((skillCard: SkillCardPropsTypes) => {
+          return (
+            <SkillCard
+              id={skillCard.id}
+              image={skillCard.image}
+              imageAlt={skillCard.imageAlt}
+              title={skillCard.title}
+              description={skillCard.description}
+            />
+          );
+        })}
+      </div>
     </section>
   );
 }

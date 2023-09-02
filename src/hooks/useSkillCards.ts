@@ -19,7 +19,7 @@ function useSkillCards(): Array<SkillCardPropsTypes> {
       imageAlt:
         "Imagem demonstrando a responsividade de um site em dispositivos com diferentes tamanhos de tela.",
       description:
-        "Desenvolvo sites totalmente responsivos, onde dispositivo conseguirá renderizar o conteúdo na tela.",
+        "Desenvolvo sites totalmente responsivos, onde qualquer dispositivo conseguirá renderizar o conteúdo na tela.",
     },
     {
       id: 2,

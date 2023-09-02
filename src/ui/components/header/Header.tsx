@@ -24,6 +24,7 @@ export default function Header() {
       <nav>
         <ul className={styles.header__nav}>
           <li className={styles.header__link}>Home</li>
+          <li className={styles.header__link}>Tecnologias</li>
           <li className={styles.header__link}>Habilidades</li>
           <li className={styles.header__link}>Experiências</li>
           <li className={styles.header__link}>Projetos</li>
