@@ -33,3 +33,8 @@
 .header__link:last-child {
   padding-right: 0px;
 }
+@media (max-width: 810px) {
+  .header__nav {
+    display: none;
+  }
+}

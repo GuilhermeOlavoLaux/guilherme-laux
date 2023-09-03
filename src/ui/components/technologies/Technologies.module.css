@@ -6,13 +6,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 
 .technologies__title {
   text-align: center;
   color: orange;
   background-color: var(--dark-blue);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .technologie_card__image {

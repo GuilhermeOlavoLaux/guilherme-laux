@@ -1,25 +1,22 @@
 .skills {
+  height: calc(100vh - 80px);
   min-height: calc(100vh - 80px);
-  background-color: rgb(75, 117, 65);
+  background-color: bisque;
   position: relative;
-  margin-top: -1px;
-}
-
-.skills__container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  margin-top: -8%;
+  z-index: 2;
 }
 
 .skills__title {
+  padding-top: 40px;
   text-align: center;
-  padding-top: 20px;
   color: orange;
+  z-index: 3;
 }
 
 .skills__cards {
   display: flex;
+  z-index: 3;
   justify-content: center;
 }
 

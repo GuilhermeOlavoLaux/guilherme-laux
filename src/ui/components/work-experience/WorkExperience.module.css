@@ -1,23 +1,38 @@
 .work_experience {
   height: 100%;
+  width: 100%;
+  position: relative;
 }
+
 .work_experience__title {
   color: orange;
   text-align: center;
+  padding-top: 20px;
+  height: 50px;
 }
 
 .work_experience__logos__container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  height: calc(100% - 50px);
+  position: relative;
+  z-index: 2;
 }
 .work_experience__logo {
-  height: 150px;
+  height: 50px;
+  z-index: 2;
   margin: 30px;
 }
 
 .work_experience__privacy__logo {
-  height: 190px;
+  height: 50px;
+  z-index: 2;
   margin: 30px;
+}
+
+.work_experience__wave {
+  position: absolute;
+  background-color: bisque;
+  top: 100px;
 }

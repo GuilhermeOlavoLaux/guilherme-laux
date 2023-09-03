@@ -1,83 +1,82 @@
-.about_me {
-  background-color: var(--sand-yellow);
-  height: 100vh;
-  font-size: 25px;
-  position: relative;
+.aboute_me {
+  min-height: calc(100vh - 80px);
+  background-color: var(--dark-blue);
 }
 
-.about_me__content {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-  z-index: 2;
-}
-
-.about_me__title {
+.aboute_me__title {
+  color: orange;
   text-align: center;
-  padding-bottom: 30px;
+  margin-bottom: 40px;
 }
 
-.about_me__image {
-  height: 220px;
+.aboute_me__container {
+  background-color: bisque;
+  padding: 50px 0px;
+  margin: 0px 20%;
+  border-radius: 6px;
 }
 
-.about_me__text {
-  width: 420px;
-}
-
-.about_me__logos_container {
+.aboute_me__content {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  padding: 50px;
 }
 
-.about_me__wave {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+.aboute_me__image {
+  height: 500px;
+  border-radius: 50%;
 }
 
-.about_me__first_wave {
-  animation: moveWave1 3s ease-in-out infinite alternate;
+.aboute_me__info {
+  width: 500px;
+  margin-left: 40px;
 }
 
-@keyframes moveWave1 {
-  from {
-    transform: translate(-1800px);
+.aboute_me__info__title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.aboute_me__description {
+  text-align: justify;
+}
+
+.aboute_me__description::first-letter {
+  padding-left: 40px;
+}
+
+@media (max-width: 1750px) {
+  .aboute_me__image {
+    height: 400px;
+  }
+  .aboute_me__content {
+    padding: 25px;
   }
 }
 
-.about_me__second_wave {
-  animation: moveWave2 3s ease-in-out infinite alternate;
-}
-
-@keyframes moveWave2 {
-  from {
-    transform: translate(-1600px);
+@media (max-width: 1360px) {
+  .aboute_me__image {
+    height: 320px;
   }
 }
 
-.about_me__third_wave {
-  animation: moveWave3 3s ease-in-out infinite alternate;
-}
-
-@keyframes moveWave3 {
-  from {
-    transform: translate(-1400px);
+@media (max-width: 1150px) {
+  .aboute_me__content {
+    flex-direction: column;
+  }
+  .aboute_me__info {
+    padding-top: 10px;
+    width: 100%;
+    margin: 0px;
   }
 }
 
-@media (max-width: 740px) {
-  .about_me__image {
-    height: 184px;
+@media (max-width: 650px) {
+  .aboute_me__image {
+    height: 250px;
   }
-}
-
-@media (max-width: 425px) {
-  .about_me__image {
-    height: 124px;
+  .aboute_me__container {
+    margin: 0px 5%;
   }
 }
