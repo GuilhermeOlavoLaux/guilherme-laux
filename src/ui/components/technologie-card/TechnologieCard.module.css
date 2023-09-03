@@ -1,0 +1,22 @@
+.technologie_card {
+  background-color: bisque;
+  width: 440px;
+  height: 590px;
+  padding: 0 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+@media (max-width: 550px) {
+  .technologie_card {
+    width: 310px;
+    height: 720px;
+  }
+}
+
+@media (max-width: 350px) {
+  .technologie_card {
+    width: 270px;
+  }
+}

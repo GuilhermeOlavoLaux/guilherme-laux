@@ -1,6 +1,38 @@
 .technologies {
-  min-height: 100vh;
+  min-height: calc(100vh - 80px);
   background-color: var(--dark-blue);
   position: relative;
   margin-top: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.technologies__title {
+  text-align: center;
+  color: orange;
+  background-color: var(--dark-blue);
+}
+
+.technologie_card__image {
+  width: 200px;
+  margin: -20% auto;
+  border-radius: 20px;
+}
+
+.technologie_card__title {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.technologie_card__description {
+  text-align: center;
+}
+
+.technologie_card__languages {
+  padding: 10px 0px 5px 0px;
+}
+.technologie_card__dev__tools {
+  padding: 10px 0px 5px 0px;
 }

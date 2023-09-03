@@ -1,0 +1,23 @@
+.work_experience {
+  height: 100%;
+}
+.work_experience__title {
+  color: orange;
+  text-align: center;
+}
+
+.work_experience__logos__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.work_experience__logo {
+  height: 150px;
+  margin: 30px;
+}
+
+.work_experience__privacy__logo {
+  height: 190px;
+  margin: 30px;
+}

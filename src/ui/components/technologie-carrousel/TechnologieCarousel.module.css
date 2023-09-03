@@ -1,0 +1,36 @@
+.technologie_carousel {
+  height: 400px;
+  width: 40%;
+  margin: 100px auto;
+}
+
+@media (max-width: 1520px) {
+  .technologie_carousel {
+    height: 400px;
+    width: 50%;
+    margin: 100px auto;
+  }
+}
+
+@media (max-width: 1250px) {
+  .technologie_carousel {
+    height: 400px;
+    width: 60%;
+    margin: 100px auto;
+  }
+}
+@media (max-width: 1050px) {
+  .technologie_carousel {
+    height: 400px;
+    width: 70%;
+    margin: 100px auto;
+  }
+}
+
+@media (max-width: 890px) {
+  .technologie_carousel {
+    height: 400px;
+    width: 98%;
+    margin: 100px auto;
+  }
+}

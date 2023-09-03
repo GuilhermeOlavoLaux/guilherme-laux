@@ -14,6 +14,7 @@
     "@types/react-typical": "^0.1.0",
     "@types/swiper": "^6.0.0",
     "@typescript-eslint/parser": "^5.0.0",
+    "react-spring-3d-carousel": "1.2.1",
     "babel-jest": "^27.4.2",
     "babel-loader": "^8.2.3",
     "babel-plugin-named-asset-import": "^0.3.8",

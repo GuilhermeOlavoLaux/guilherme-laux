@@ -1,8 +1,5 @@
 .skill_card {
   width: 340px;
-  border: solid black 2px;
-  background-color: var(--sand-yellow);
-  border-radius: 6px;
   padding: 20px;
   text-align: center;
   margin: 20px;

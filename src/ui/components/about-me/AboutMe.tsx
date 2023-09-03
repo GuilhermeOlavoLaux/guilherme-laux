@@ -15,9 +15,9 @@ export default function AboutMe() {
             loop={Infinity}
             wrapper="p"
             steps={[
-              "Desenvolvedor Front End",
+              "Desenvolvedor Front End.",
               2000,
-              "Desenvolvedor Back End",
+              "Desenvolvedor Back End.",
               2000,
               "Desenvolvedor Full Stack!",
               2000,

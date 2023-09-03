@@ -1,8 +1,15 @@
 .skills {
-  min-height: 100vh;
-  background-color: var(--dark-blue);
+  min-height: calc(100vh - 80px);
+  background-color: rgb(75, 117, 65);
   position: relative;
   margin-top: -1px;
+}
+
+.skills__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .skills__title {
