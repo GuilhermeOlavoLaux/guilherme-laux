@@ -13,7 +13,7 @@
   color: orange;
   background-color: var(--dark-blue);
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .technologie_card__image {

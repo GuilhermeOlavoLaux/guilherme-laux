@@ -1,26 +1,33 @@
 .aboute_me {
   min-height: calc(100vh - 80px);
   background-color: var(--dark-blue);
+  margin-top: -1px;
+  z-index: 2;
+  position: relative;
+}
+
+.aboute_me__container {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .aboute_me__title {
   color: orange;
   text-align: center;
-  margin-bottom: 40px;
-}
-
-.aboute_me__container {
-  background-color: bisque;
-  padding: 50px 0px;
-  margin: 0px 20%;
-  border-radius: 6px;
+  padding-bottom: 10px;
 }
 
 .aboute_me__content {
+  background-color: bisque;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 0px 20%;
+  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
   padding: 50px;
 }
 
@@ -76,7 +83,7 @@
   .aboute_me__image {
     height: 250px;
   }
-  .aboute_me__container {
+  .aboute_me__content {
     margin: 0px 5%;
   }
 }
