@@ -10,3 +10,12 @@
 .skill_card__image {
   height: 150px;
 }
+
+@media (max-width: 390px) {
+  .skill_card {
+    width: 280px;
+  }
+  .skill_card__image {
+    height: 120px;
+  }
+}

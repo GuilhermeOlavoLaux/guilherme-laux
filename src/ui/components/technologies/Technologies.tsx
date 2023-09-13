@@ -28,20 +28,26 @@ export function Technologies() {
           <p>JavaScript, TypeScript e PhP</p>
 
           <h3 className={styles.technologie_card__dev__tools}>Dev Tools:</h3>
-          <ul>
-            <li>React</li>
-            <li>NextJS</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SCSS</li>
-            <li>UX/UI</li>
-            <li>Figma</li>
-            <li>CI/CD</li>
-            <li>APIS</li>
-            <li>StoryBook</li>
-            <li>Cucumber</li>
-            <li>Jest</li>
-          </ul>
+
+          <div className={styles.technologie_card__list}>
+            <ul>
+              <li>React</li>
+              <li>NextJS</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SCSS</li>
+              <li>UX/UI</li>
+            </ul>
+
+            <ul>
+              <li>Figma</li>
+              <li>CI/CD</li>
+              <li>APIS</li>
+              <li>StoryBook</li>
+              <li>Cucumber</li>
+              <li>Jest</li>
+            </ul>
+          </div>
         </TechnologieCard>
       ),
     },
@@ -66,15 +72,18 @@ export function Technologies() {
           <p>JavaScript, TypeScript, Java e Kotlin</p>
 
           <h3 className={styles.technologie_card__dev__tools}>Dev Tools:</h3>
-
-          <ul>
-            <li>Spring boot</li>
-            <li>Express</li>
-            <li>Docker</li>
-            <li>MongoDB</li>
-            <li>MYSQL</li>
-            <li>PostgreSQL</li>
-          </ul>
+          <div className={styles.technologie_card__list}>
+            <ul>
+              <li>Spring boot</li>
+              <li>Express</li>
+              <li>Docker</li>
+            </ul>
+            <ul>
+              <li>MongoDB</li>
+              <li>MYSQL</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
         </TechnologieCard>
       ),
     },

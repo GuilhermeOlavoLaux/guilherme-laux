@@ -13,9 +13,8 @@ export default function GuilhermeLaux() {
       <HomeBanner />
       <AboutMe />
       <Technologies />
-      {/* 
       <Projects />
-      <Skills /> */}
+      <Skills />
     </div>
   );
 }

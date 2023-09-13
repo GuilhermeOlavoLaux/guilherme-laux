@@ -4,7 +4,6 @@ import styles from "./AboutMe.module.css";
 export function AboutMe() {
   return (
     <section className={styles.aboute_me}>
-      <h1 className={styles.aboute_me__title}>Sobre mim</h1>
       <div className={styles.aboute_me__container}>
         <div className={styles.aboute_me__content}>
           <img src={GuilhermeLaux} alt="" className={styles.aboute_me__image} />

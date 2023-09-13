@@ -9,26 +9,19 @@
 .aboute_me__container {
   min-height: calc(100vh - 80px);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-}
-
-.aboute_me__title {
-  color: orange;
-  text-align: center;
-  padding-bottom: 10px;
 }
 
 .aboute_me__content {
   background-color: bisque;
+  padding: 50px 0px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  margin: 0px 20%;
-  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  width: 100%;
 }
 
 .aboute_me__image {
@@ -38,7 +31,7 @@
 
 .aboute_me__info {
   width: 500px;
-  margin-left: 40px;
+  margin-left: 10%;
 }
 
 .aboute_me__info__title {
@@ -71,6 +64,8 @@
 @media (max-width: 1150px) {
   .aboute_me__content {
     flex-direction: column;
+    padding: 50px 10%;
+    margin-top: 50px;
   }
   .aboute_me__info {
     padding-top: 10px;
@@ -84,6 +79,6 @@
     height: 250px;
   }
   .aboute_me__content {
-    margin: 0px 5%;
+    margin: 50px 5%;
   }
 }

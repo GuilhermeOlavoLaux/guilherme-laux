@@ -1,5 +1,4 @@
 .skills {
-  height: calc(100vh - 80px);
   min-height: calc(100vh - 80px);
   background-color: bisque;
   position: relative;
@@ -16,8 +15,15 @@
 
 .skills__cards {
   display: flex;
+  position: relative;
   z-index: 3;
   justify-content: center;
+}
+
+.skills__cards__wave {
+  position: absolute;
+  background-color: bisque;
+  bottom: 0px;
 }
 
 @media (max-width: 1300px) {
