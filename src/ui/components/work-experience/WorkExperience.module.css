@@ -6,7 +6,7 @@
 .work_experience__title {
   color: orange;
   text-align: center;
-  padding-top: 20px;
+  padding: 110px 20px 24px;
   height: 50px;
   z-index: 3;
   position: relative;
@@ -19,7 +19,7 @@
   height: calc(100% - 50px);
   position: relative;
   z-index: 2;
-  padding-bottom: 10%;
+  padding-bottom: 15%;
 }
 
 .work_experience__logo {

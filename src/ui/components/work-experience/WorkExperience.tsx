@@ -1,4 +1,3 @@
-import { useState } from "react";
 import CocaCola from "@assets/coca-cola.svg";
 import Cwi from "@assets/cwi.png";
 import ComplianceTotal from "@assets/compliance-total.png";

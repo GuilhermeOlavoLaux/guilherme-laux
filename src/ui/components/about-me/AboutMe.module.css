@@ -37,6 +37,7 @@
 .aboute_me__info__title {
   text-align: center;
   padding-bottom: 20px;
+  color: var(--black-blue);
 }
 .aboute_me__description {
   text-align: justify;
@@ -79,6 +80,6 @@
     height: 250px;
   }
   .aboute_me__content {
-    margin: 50px 5%;
+    margin: 50px 0px;
   }
 }

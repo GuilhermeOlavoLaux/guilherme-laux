@@ -12,7 +12,7 @@ export function SkillCard({
   return (
     <div className={styles.skill_card} key={id}>
       <img src={image} alt={imageAlt} className={styles.skill_card__image} />
-      <h4>{title}</h4>
+      <h4 className={styles.skill_card_title}>{title}</h4>
       <p>{description}</p>
     </div>
   );

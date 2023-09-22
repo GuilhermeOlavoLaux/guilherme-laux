@@ -10,7 +10,7 @@ export interface SkillCardPropsTypes {
   description: string;
 }
 
-function useSkillCards(): Array<SkillCardPropsTypes> {
+export default function useSkillCards(): Array<SkillCardPropsTypes> {
   const skillCards = [
     {
       id: 1,
@@ -42,5 +42,3 @@ function useSkillCards(): Array<SkillCardPropsTypes> {
   ];
   return skillCards;
 }
-
-export default useSkillCards;

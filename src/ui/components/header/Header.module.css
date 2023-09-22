@@ -4,7 +4,7 @@
   top: 0px;
   background-color: var(--dark-blue);
   width: 100vw;
-  z-index: 3;
+  z-index: 5;
   display: flex;
   justify-content: space-between;
   align-items: center;

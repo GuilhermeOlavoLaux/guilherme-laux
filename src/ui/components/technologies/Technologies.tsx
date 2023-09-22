@@ -24,10 +24,10 @@ export function Technologies() {
             utilizando as seguintes tecnologias:
           </p>
 
-          <h3 className={styles.technologie_card__languages}>Linguagens:</h3>
+          <h3 className={styles.technologie_card__languages}>Linguagens</h3>
           <p>JavaScript, TypeScript e PhP</p>
 
-          <h3 className={styles.technologie_card__dev__tools}>Dev Tools:</h3>
+          <h3 className={styles.technologie_card__dev__tools}>Dev Tools</h3>
 
           <div className={styles.technologie_card__list}>
             <ul>
@@ -68,10 +68,10 @@ export function Technologies() {
             stack:
           </p>
 
-          <h3 className={styles.technologie_card__languages}>Linguagens:</h3>
+          <h3 className={styles.technologie_card__languages}>Linguagens</h3>
           <p>JavaScript, TypeScript, Java e Kotlin</p>
 
-          <h3 className={styles.technologie_card__dev__tools}>Dev Tools:</h3>
+          <h3 className={styles.technologie_card__dev__tools}>Dev Tools</h3>
           <div className={styles.technologie_card__list}>
             <ul>
               <li>Spring boot</li>

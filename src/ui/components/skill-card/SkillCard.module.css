@@ -2,9 +2,14 @@
   width: 340px;
   padding: 20px;
   text-align: center;
-  background-color: beige;
+  background-color: white;
   border-radius: 6px;
   margin: 20px;
+}
+
+.skill_card_title {
+  padding: 20px 10px;
+  color: var(--black-blue);
 }
 
 .skill_card__image {

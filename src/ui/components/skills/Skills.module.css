@@ -2,21 +2,18 @@
   min-height: calc(100vh - 80px);
   background-color: bisque;
   position: relative;
-  margin-top: -8%;
-  z-index: 2;
 }
 
 .skills__title {
-  padding-top: 40px;
+  padding-top: 67px;
   text-align: center;
   color: orange;
-  z-index: 3;
+  position: relative;
 }
 
 .skills__cards {
   display: flex;
   position: relative;
-  z-index: 3;
   justify-content: center;
 }
 
